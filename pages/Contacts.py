@@ -1,7 +1,7 @@
 import streamlit as st
 from Tiger.functions import login, logout, page_config
 
-page_config('Calendar')
+page_config('Contacts')
 academy, name, authentication_status, username, authenticator = login()
 if authentication_status:
     st.write(f'Welcome *{name}*')
