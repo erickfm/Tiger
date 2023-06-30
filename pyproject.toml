@@ -12,7 +12,7 @@ streamlit-authenticator = "^0.2.2"
 stauth = "^0.1.9"
 google-cloud-bigquery = "^3.11.0"
 db-dtypes = "^1.1.1"
-calendar-view = "^2.3.0"
+matplotlib = "^3.7.1"
 
 
 [build-system]
