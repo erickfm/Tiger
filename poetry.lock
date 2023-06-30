@@ -103,6 +103,21 @@ files = [
 ]
 
 [[package]]
+name = "calendar-view"
+version = "2.3.0"
+description = "Library provides a graphical view of the calendar."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "calendar-view-2.3.0.tar.gz", hash = "sha256:b3669d054680bfd9e146f691b0a71e1f90c7273424823a6bf74923f9fa4cb2b6"},
+    {file = "calendar_view-2.3.0-py3-none-any.whl", hash = "sha256:d7cfbbe39c050a2d3cc0813c712af1349bbd813e7bae4ce1f475ddf5f79fc932"},
+]
+
+[package.dependencies]
+Pillow = "*"
+
+[[package]]
 name = "certifi"
 version = "2023.5.7"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -1696,4 +1711,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9.13"
-content-hash = "94bfc5d8cc1ba75fdda23c74753b5dea08dddef3cad8cb21f9736b5b294c7803"
+content-hash = "6fcb75ddd906bb548597adf8c4329f04e76982fcafb70d2b103210562ae2a7c9"
